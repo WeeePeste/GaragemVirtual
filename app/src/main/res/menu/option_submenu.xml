@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mainActivityMenu"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_menu_icon"
+        >
+            <menu>
+                <item
+                    android:id="@+id/submenu1"
+                    android:title="A minha Garagem"
+                    app:showAsAction="always"
+                    />
+                 <item
+                    android:id="@+id/submenu2"
+                    android:title="Mapa"
+                    app:showAsAction="always"
+                    />
+                <item
+                    android:id="@+id/submenu3"
+                    android:title="Definições"
+                    app:showAsAction="always"
+                    />
+            </menu>
+    </item>
+
+</menu>
